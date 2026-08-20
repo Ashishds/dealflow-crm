@@ -1,14 +1,14 @@
-# MyContacts CRM
+# DealFlow CRM
 
-> A fast, lightweight, and self-hosted personal relationship management tool built with **React**, **TypeScript**, **Express**, and **SQLite**.
+> A fast, lightweight, and self-hosted personal relationship management and sales pipeline tool built with **React**, **TypeScript**, **Express**, and **SQLite**.
 
 ---
 
 ## 📌 Overview
 
-**MyContacts CRM** is a single-user relationship management application designed to run entirely on your local machine. It provides a focused, self-hosted alternative to complex cloud CRMs like Salesforce—with zero logins, no cloud tracking, no subscriptions, and instant local data persistence in an on-disk SQLite database.
+**DealFlow CRM** is a single-user relationship management application designed to run entirely on your local machine. It provides a focused, self-hosted alternative to complex cloud CRMs like Salesforce—with zero logins, no cloud tracking, no subscriptions, and instant local data persistence in an on-disk SQLite database.
 
-Whether managing business accounts, tracking professional contacts, advancing sales opportunities through an interactive Kanban board, or logging interaction timelines and follow-up tasks, MyContacts CRM provides a responsive and streamlined workflow.
+Whether managing business accounts, tracking professional contacts, advancing sales opportunities through an interactive Kanban board, or logging interaction timelines and follow-up tasks, DealFlow CRM provides a responsive and streamlined workflow.
 
 ---
 
@@ -44,12 +44,19 @@ Whether managing business accounts, tracking professional contacts, advancing sa
 
 ## 🚀 Quick Start
 
-### 1. Prerequisites
-- **Node.js** (v18.0.0 or higher recommended)
-- **npm** (v9.0.0 or higher)
+### 1. Clone & Prerequisites
+Ensure you have **Node.js** (v18+) and **npm** installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/Ashishds/dealflow-crm.git
+
+# Navigate into the project directory
+cd dealflow-crm
+```
 
 ### 2. Installation
-Clone the repository and install all dependencies for both frontend and backend:
+Install all dependencies for both frontend and backend:
 
 ```bash
 # Install frontend & root dependencies
@@ -153,7 +160,7 @@ erDiagram
 ## 📁 Project Structure
 
 ```text
-personal-crm/
+dealflow-crm/
 ├── crm.db                 # Local SQLite database file (auto-generated)
 ├── package.json           # Root workspace configuration & scripts
 ├── vite.config.ts         # Vite build config, dev proxy & Vitest settings

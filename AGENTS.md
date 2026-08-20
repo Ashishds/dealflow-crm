@@ -1,12 +1,12 @@
-# MyContacts CRM — Agent Specification & Guidelines
+# DealFlow CRM — Agent Specification & Guidelines
 
-This document defines the system specification, architectural rules, data model contracts, visual design requirements, build phases, and validation standards for **MyContacts CRM**. Any AI agent operating in this repository must strictly adhere to these specifications.
+This document defines the system specification, architectural rules, data model contracts, visual design requirements, build phases, and validation standards for **DealFlow CRM**. Any AI agent operating in this repository must strictly adhere to these specifications.
 
 ---
 
 ## 1. Project Overview & Philosophy
 
-**MyContacts CRM** is a single-user, self-hosted personal relationship management system running locally on the user's computer. It is designed as a streamlined, lightweight alternative to complex enterprise cloud CRMs (such as Salesforce or HubSpot).
+**DealFlow CRM** is a single-user, self-hosted personal relationship management and sales pipeline system running locally on the user's computer. It is designed as a streamlined, lightweight alternative to complex enterprise cloud CRMs (such as Salesforce or HubSpot).
 
 ### Core Principles
 1. **100% Local & Self-Contained**: No user authentication, no multi-tenancy, no cloud services, no telemetry, and no external internet dependencies.
